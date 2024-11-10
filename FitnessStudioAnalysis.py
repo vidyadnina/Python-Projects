@@ -4,9 +4,9 @@ import numpy as np
 
 # Importing data
 workout_df = pd.read_csv("data/workout.csv")
-keywords_df = pd.read_csv("data/three_keywords.csv")
+keywords_df = pd.read_csv("data/keywords.csv")
 workout_geo_df = pd.read_csv("data/workout_geo.csv")
-keywords_geo_df = pd.read_csv("data/three_keywords_geo.csv")
+keywords_geo_df = pd.read_csv("data/keywords_geo.csv")
 
 # When was the global search for 'workout' at its peak?
 plt.figure(figsize=(15,5))
